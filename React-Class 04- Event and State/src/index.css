@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .toolbar-div {
+        @apply space-x-5 cursor-pointer bg-slate-700 w-[600px] h-[160px] flex justify-center items-center
+    }
+
+    .container-div{
+        @apply max-w-[1320px] mx-auto flex justify-between items-center
+    }
+
+    .counter-div {
+        @apply space-x-5 cursor-pointer 
+    }
+
+    .counter-display {
+        @apply py-9 mb-6 w-[320px] bg-orange-200 rounded-xl text-[30px] font-bold text-center
+    }
+
+
+}

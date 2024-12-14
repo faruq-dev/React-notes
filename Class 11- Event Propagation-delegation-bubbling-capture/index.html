@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="body">
+    <div class="container">
+        <h1>What is Event Propagation</h1>
+
+        <div class="parent" id="parent">
+            <form id="form">
+                <button class="button" type="button" id="button">Click Here</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <!-- ************* -->
+
+    <div class="container">
+        <h1>What is Event Delegation</h1>
+
+        <div class="languages">
+            <ul class="lang-style" id="list">
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+            </ul>
+
+            <div>
+                <button class="button" style="margin-top: 15px;" onclick="addElement()">Add New Element</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

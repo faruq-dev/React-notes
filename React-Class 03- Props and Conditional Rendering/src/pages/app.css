@@ -1,0 +1,5 @@
+/* Target the 2nd and 4th columns in each row of a 5-column grid */
+.custom-grid > *:nth-child(4n+2),
+.custom-grid > *:nth-child(4n+4) {
+  background-color: white;
+}

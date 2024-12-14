@@ -1,0 +1,9 @@
+if(e.target.innerHTML === 'Increament'){
+      setCounter(counter + 1);
+    } else {
+      if (counter <= 0) {
+        setCounter(0);
+      } else {
+        setCounter(counter - 1);
+      }
+    }
